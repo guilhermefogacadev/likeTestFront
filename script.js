@@ -44,6 +44,22 @@ function salvarOrcamento() {
   });
 }
 
+function listaProdutos() {
+  fetch('http://localhost:8080/api/orcamento/buscar')
+      .then(async (response) => {
+          if (response.ok) {
+              const data = await response.text();
+              alert(data)
+          } else {
+              const erro = await response.text();
+              alert("Erro ao buscar orçamento: " + erro);
+          }
+      })
+      .catch((error) => {
+          alert("Erro ao buscar orçamento: " + error.message);
+      });
+}
+
   
   
   
