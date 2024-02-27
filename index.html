@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criador de Orçamentos</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</body>
+</head>
+<body>
+  <h1> Orçamentos</h1>
+  <form onsubmit="salvarOrcamento()">
+    <label for="nomeCliente">Nome do Cliente:</label>
+    <input type="text" id="nomeCliente" name="nomeCliente" required>
+    <br>
+    <h2>Produtos</h2>
+    <div id="produtos"></div>
+    <br>
+    <button type="button" onclick="adicionarProduto()">Adicionar Produto</button>
+    <br>
+    <br>
+    <button type="submit">Salvar Orçamento</button>
+  </form>
+  <br>
+  
+</body>
+</html>
+

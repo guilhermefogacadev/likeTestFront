@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.container {
+  max-width: 500px;
+}
+
+#produtos {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.produto {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.produto label {
+  font-weight: normal;
+}
+
+.produto input {
+  width: 100%;
+  margin-bottom: 5px;
+}
