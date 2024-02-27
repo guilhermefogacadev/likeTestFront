@@ -44,7 +44,7 @@ function salvarOrcamento() {
   });
 }
 
-function listaProdutos() {
+function listaOrcamento() {
   fetch('http://localhost:8080/api/orcamento/buscar')
       .then(async (response) => {
           if (response.ok) {
